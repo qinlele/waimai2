@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 14px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1030787 */
+    src: url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.eot');
+    src: url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.svg#iconfont') format('svg');
+}
+@media (min-width: 320px) {
+    html{
+        font-size:42.67px;
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+}
+.iconfont{
+    font-size: 14px;
+}
+.html{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.beijing{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#head{
+    width: 100%;
+    height: auto;
+    padding-top: 0.3rem;
+    min-height: 1px;
+    margin: 0 auto;
+    background-image:linear-gradient(to right,rgb(0,210,255) 0,rgb(120,250,0) 100%) ;
+}
+.a1{
+    width: calc(100% - 0.48rem);
+    height: 0.98rem;
+/*    background: #16b0bc;*/
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 0.49rem;
+    /*
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    */
+
+}
+/*.a1:before{
+    content: "";
+    display: block;
+}*/
+/*另一种方法*/
+.a2{
+    width: 4rem;
+    height: 0.42rem;
+    border-radius:0.21rem ;
+    background: rgba(255,255,255,0.1);
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 1.00rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    display: flex;
+    border: 0.03rem solid rgba(255,255,255,0.5);
+    line-height: 0.42rem;
+/*    text-align: center;*/
+    overflow: hidden;
+}
+.a3 span{
+    color: rgb(14,213,241);
+/*    display: block;*/
+/*    background: black;*/
+/*    margin: 0 auto;*/
+/*    float: left;*/
+
+}
+.a3{
+    width:0.49rem ;
+    height:0.49rem;
+    background: rgba(255,255,255);
+    border-radius:50%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+.a4{
+    position: absolute;
+    top: 0.32rem;
+    left: 0.87rem;
+    color: white;
+    font-size: 0.24rem;
+
+}
+.sousuo{
+    display: block;
+    width: 3.0rem;
+    height: 0.4rem;
+    margin: 0 0.2rem;
+    background: rgba(255,255,255,0.5);
+    border: none;
+}
+.right{
+    width: 0.4rem;
+    height: 0.38rem;
+    margin-right: 0.2rem;
+    line-height: 0.42rem;
+/*    background: yellow;*/
+}
+.right span{
+    display: block;
+    width: 0.4rem;
+    height: 100%;
+    line-height: 0.38rem;
+    color: rgb(255,255,255);
+}
+.lunbo{
+    width: 7.02rem;
+    height: 3.3rem;
+/*    background: red;*/
+    margin: 0.2rem auto 0rem;
+    border-radius: 0.2rem;
+    position: relative;
+    overflow: hidden;
+}
+.lunbobox{
+    height: 3rem;
+    position: relative;
+}
+.img{
+    width: 7.02rem;
+/*    height: 3rem;*/
+/*    background:blue;*/
+/*    position: absolute;
+    left: 0;
+    top: 0;*/
+    margin: 0 auto;
+    }
+.center{
+    z-index: 1;
+}
+.img img{
+    width: 7.02rem;
+    height: 3rem;
+
+}
+.lunboyuan{
+    height: 0.12rem;
+    width: 0.71rem;
+/*    background: #16b0bc;*/
+    position: absolute;
+    left:3.25rem;
+    top: 3.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.yuan{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: green;
+
+}
+.yuanxuanzhong{
+    background: #16b0bc;
+}
+.daohang{
+    width: 7.5rem;
+    height: 3.02rem;
+/*    background: yellow;*/
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.daohangbox{
+    width: 1.6rem;
+    height: 1.4rem;
+/*    background: blue;*/
+}
+.tubiao{
+    height: 1.3rem;
+    width: 1.33rem;
+/*    background: red;*/
+    margin: 0 auto;
+    text-align: center;
+}
+.tubiao img{
+    display: block;
+    width: 0.94rem;
+    height: 0.94rem;
+    margin: 0.1rem auto 0rem;
+}
+.tubiao p{
+    font-weight: 800;
+    color: rgb(0,0,0);
+}
+/*导航及以上的部分*/
+.tuijian{
+    width: 100%;
+    height: auto;
+/*    background: #16b0bc;*/
+    margin: 0.8rem auto 0rem;
+    text-align: center;
+    font-weight: 800;
+    color: red;
+}
+.tiao{
+    width:1.03rem;
+    height: 0.04rem;
+    background: #16b0bc;
+    margin: 0.2rem auto;
+}
+.tuijian1{
+    width: 7.03rem;
+    height: 4.67rem;
+/*    background: red;*/
+    margin: 0 auto 0.76rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+.tuijian1 img{
+    width: 7.02rem;
+    height: 2.78rem;
+    display: block;
+    margin-bottom: 0.26rem;
+}
+.tuijian1 p{
+    font-size: 0.36rem;
+    font-weight: 800;
+    margin-bottom: 0.23rem;
+}
+.tuijian1 pre{
+    font-size: 0.24rem;
+    margin-bottom: 0.14rem;
+}
+.shoucang{
+    width:100%;
+    height: 0.5rem;
+/*    background: blue;*/
+    line-height: 0.5rem;
+
+}
+.zi1{
+    float: left;
+    font-family: iconfont;
+    font-size: 0.25rem;
+    color: yellow;
+    float: left;
+    margin-right: 0.15rem;
+}
+.zi2{
+    font-size: 0.05rem;
+    margin-right: 0.6rem;
+    color: rgba(0,0,0,0.5);
+    float: left;
+}
+.jindian{
+    width: 1.56rem;
+    height: 0.5rem;
+    background-image:linear-gradient(to right,rgb(12,212,243),rgb(8,117,134) 70%) ;
+    float: right;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.tuijian2{
+    margin: 0 auto;
+    width: 7.02rem;
+    height: 1.84rem;
+/*    background: blue;*/
+
+}
+.qiang{
+    float: left;
+    width: 0.73rem;
+    height: 0.73rem;
+    border-radius: 0.365rem;
+    margin-top: -1.15rem;
+    margin-left: 6.1rem;
+    background-image:linear-gradient(to right,rgb(223,228,96),rgb(225,241,0) 50%) ;
+    font-size: 0.36rem;
+    color: white;
+    line-height: 0.73rem;
+    text-align: center;
+}
+.roubox{
+    width: 6.69rem;
+    height: 1.84rem;
+/*    background: green;*/
+    box-shadow: 0 0 0.24rem 0.01rem rgba(79,77,77,0.5);
+    border-radius: 0.1rem;
+    padding-left: 0.18rem;
+    padding-top: 0.185rem;
+    /*    display: flex;
+    position: relative;*/
+}
+.roubox .tu{
+/*    display: inline-block;*/
+    float: left;
+    width: 1.35rem;
+    height: 1.47rem;
+    border-radius: 0.11rem;
+    background: yellow;
+    box-shadow: 0 0 0.24rem 0.01rem rgba(79,77,77,0.5);
+    margin-right: 0.18rem;
+}
+.tu img{
+    width: 1.35rem;
+    height: 1.47rem;
+    border-radius: 0.11rem;
+}
+.a5{
+/*    display: inline-block;*/
+/*    width: 3.3rem;
+    height: 0.5rem;*/
+/*    background: #333333;*/
+    font-size: 0.3rem;
+    float: left;
+}
+.biaoqian{
+    width: 4.21rem;
+    height: 0.84rem;
+/*    background: yellow;*/
+    float: left;
+    line-height: 0.41rem;
+}
+.biaoqian1{
+    text-align: center;
+    display: block;
+    float: left;
+    width: 0.97rem;
+    height: 0.38rem;
+/*    background: #333333;*/
+/*    padding: 0 0.25rem;*/
+    margin-right: 0.24rem;
+    font-size: 0.2rem;
+    color: white;
+    margin-top: 0.15rem;
+    background-image:linear-gradient(to right,rgb(225,108,108),rgb(245,148,150) 70%) ;
+}
+.soucang{
+    width: 4.5rem;
+    height: 0.29rem;
+/*    background: blue;*/
+    float: left;
+}
+.zi3{
+    float: left;
+    font-family: iconfont;
+    font-size: 0.25rem;
+    color: yellow;
+    float: left;
+    margin-right: 0.15rem;
+}
+.zi4{
+    font-size: 0.05rem;
+    margin-right: 0.5rem;
+    color: rgba(0,0,0,0.5);
+    float: left;
+}
+.zhuangtailan{
+    width: 7.5rem;
+    height: 0.97rem;
+    background: white;
+    margin-top: 0.54rem;
+    box-shadow: 0 0 0.04rem 0.04rem rgba(0,0,0,0.2);
+    position: fixed;
+    bottom:0rem;
+}
+div.tubiao1 {
+    width: 0.55rem;
+    height: 0.97rem;
+/*    background: blue;*/
+    margin-left: 1.31rem;
+    float: left;
+}
+.tubiao2{
+    width: 0.55rem;
+    height: 0.5rem;
+/*    background: green;*/
+    line-height: 0.5rem;
+    text-align: center;
+    font-family: iconfont;
+}
+.tubiao1 span{
+    font-size: 0.32rem;
+}
+.zi5{
+    height: 0.33rem;
+    font-size: 0.16rem;
+    text-align: center;
+    margin-top: 0rem;
+/*    background: red;*/
+}
+
+/**/

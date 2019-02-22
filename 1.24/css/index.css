@@ -1,0 +1,317 @@
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    background: #f04c18;
+}
+.topbar{
+    width: 100%;
+    height: 100%;
+    /*background: #333333;*/
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.scanbox{
+    width: 0.41rem;
+    height: 0.41rem;
+    border-radius: 0.41rem;
+    background: white;
+    margin-left: 0.2rem;
+}
+.searchbox{
+    width: 3.84rem;
+    height: 0.41rem;
+    background: white;
+    border-radius: 0.25rem;
+    margin-left: 2.75rem;
+}
+input{
+    float: left;
+    width:3.2rem ;
+    height:auto;
+    border-radius: 0.25rem;
+    border: none;
+    margin-top: 0.05rem;
+    margin-left: 0.1rem;
+}
+.scanbox .iconfont{
+    color: #f04c18;
+    font-size: 0.3rem;
+    float: left;
+    margin-left: 0.05rem;
+    margin-top: 0.05rem;
+}
+.searchbox .iconfont{
+    color: #9d9d9d;
+    float: left;
+    margin-top: 0.05rem;
+}
+.banner{
+    /*background: #0000a6;*/
+    height: 3.2rem;
+    width: 7.5rem;
+    margin-top:0.24rem;
+    position: relative;
+}
+.imgbox{
+    width: 7.02rem;
+    height: 3.06rem;
+    background: red;
+    margin: 0 auto;
+    position: relative;
+}
+.imgbox img{
+    display: block;
+    width: 7.02rem;
+    height: 3.06rem;
+}
+.imgbox .pic{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f04c18;
+}
+.radiusbox{
+    width: 0.82rem;
+    height: 0.17rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 3.34rem;
+    top: 2.79rem;
+}
+.radius{
+    width: 0.17rem;
+    height: 0.17rem;
+    background: white;
+    border-radius: 0.5rem;
+}
+.radius.active{
+    background: red;
+}
+.daohang{
+    width: 7.02rem;
+    height: 3.6rem;
+    margin:0 auto ;
+    margin-top:0.24rem;
+    /*background: #5bc0de;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kuai{
+    width: 1.755rem;
+    height: 1.7rem;
+    /*background: red;*/
+    text-align: center;
+}
+.daohang img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.daohang p{
+    font-size: 0.15em;
+}
+.tuijian{
+    width: 100%;
+    height: 1rem;
+    /*background: #2b542c;*/
+    margin-top: 0.24rem;
+    text-align: center;
+}
+.tuijian img{
+    width: 2.8rem;
+    height: 1rem;
+}
+.tuijianneirong{
+    width: 100%;
+    height: auto;
+    /*background: #5cb85c;*/
+    margin-top: 0.24rem;
+    text-align: center;
+}
+.tuijianneirong img{
+    width: 7.02rem;
+    height: 3.2rem;
+}
+.ziti{
+    width:7.02rem;
+    height: 1.1rem;
+    margin: 0 auto;
+}
+.ziti p,span{
+    font-size: 0.3rem;
+    float: left;
+    font-weight: bold;
+
+}
+.ziti span{
+    color: #cccccc;
+}
+.three{
+    width: 7.02rem;
+    height: 0.5rem;
+    /*background:red;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.3rem;
+    margin-bottom: 0.4rem;
+}
+.three .xin img , .huo img{
+    width: 1.2rem;
+    height: 0.5rem;
+}
+.three .jin img{
+    width: 1.6rem;
+    height:0.5rem ;
+}
+.three .huo{
+    margin-right: 2.4rem;
+}
+.shangtui{
+    width: 7.02rem;
+    height: 2.3rem;
+    /*background: #5bc0de;*/
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.shangtui1{
+    width: 6.7rem;
+    height: 100%;
+    background: white;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    box-shadow:0 0 0.1rem 0.01rem black;
+}
+.shangtui1 img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: 0.4rem;
+}
+.wenzi{
+    width: 3.6rem;
+    height: 1.6rem;
+    /*background: red;*/
+    margin-left:0.3rem ;
+    font-weight: bolder;
+}
+.shangtui1 p{
+    font-size: 0.3rem;
+}
+.colorthree{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 0.2rem;
+}
+.colorthree span{
+    font-size: 0.2rem;
+    color: white;
+    font-weight: lighter;
+}
+.xianliang{
+    width: 0.8rem;
+    height: 0.3rem;
+    background-color: #eb2a56;
+    /*text-align: center;*/
+    line-height: 0.3rem;
+    border-radius: 0.1rem;
+}
+.song{
+    width: 1.2rem;
+    height: 0.3rem;
+    background-color: #12b66f;
+    margin-left: 0.3rem;
+    /*text-align: center;*/
+    line-height: 0.3rem;
+    border-radius: 0.1rem;
+}
+.youhui{
+    width: 0.6rem;
+    height: 0.3rem;
+    background-color: #fa1602;
+    margin-left: 0.3rem;
+    /*text-align: center;*/
+    line-height: 0.3rem;
+    border-radius: 0.1rem;
+}
+.wenzi .icon{
+    width:100%;
+    height: 0.5rem;
+    /*background: #5cb85c;*/
+    margin-top: 0.3rem;
+    text-align: center;
+}
+.wenzi .icon img{
+    width: 1rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: -0.1rem;
+    margin-right: 0.4rem;
+}
+.shangtui .circle{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    box-shadow: 0 0 0.2rem 0.1rem red;
+}
+.circle span{
+    font-size: 0.4rem;
+    color: white;
+    margin-left: 0.2rem;
+}
+.tab{
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto;
+    /*background: #66afe9;*/
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 0.2rem 0.1rem #cccccc;
+}
+.tab .shou,.discover,.order,.my{
+    width: 1rem;
+    height: 1rem;
+    /*background: red;*/
+    margin-top:-0.5rem;
+    margin-left: 0.4rem;
+}
+.shou img{
+    width: 0.5rem;
+    height: 0.4rem;
+}
+.shou p{
+    font-size: 0.2rem;
+    color: #d61f07;
+    margin-top: -0.2rem;
+}
+.discover p ,.order p,.my p{
+    font-size: 0.2rem;
+    color: #a0a0a0;
+    margin-top: -0.2rem;
+}
+.discover img,.order img,.my img{
+    width: 0.5rem;
+    height: 0.4rem;
+}

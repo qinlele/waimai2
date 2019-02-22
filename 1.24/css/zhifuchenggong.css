@@ -1,0 +1,73 @@
+.beijing{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to bottom,rgb(0,210,255) 0,rgb(120,250,0) 100%) ;
+}
+.top{
+    width: 100%;
+    height: auto;
+    /*background: #66afe9;*/
+
+}
+.top>img{
+    width: 0.16rem;
+    height: 0.28rem;
+    margin-left: 0.27rem;
+    margin-top: 0.41rem;
+    margin-bottom: 0.41rem;
+    display: block;
+}
+.tu{
+    width: 100%;
+    height: 0.23rem;
+    background: #9d9d9d;
+}
+.top img:nth-last-child(1){
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    margin-right: 1.5rem;
+    display: block;
+}
+.wenzi1,.wenzi2{
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    color: rgba(255,255,255,1);
+    /*background: red;*/
+}
+.wenzi2{
+    margin: 0;
+}
+.kong{
+    margin:1.59rem 0.2rem  ;
+    height: 0.01rem;
+}
+.wenzi2 span{
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.5);
+}
+.backtop{
+    width: 100%;
+    height: 3.48rem;
+    /*background: yellow;*/
+    position: relative;
+}
+.backtop .back{
+    width: 2.2rem;
+    height: 0.77rem;
+    background: rgb(0,210,255);
+    border-radius: 0.37rem;
+    position: absolute;
+    left:2.6rem;
+    text-align: center;
+    line-height: 0.77rem;
+    font-size: 0.4rem;
+    color: white;
+    box-shadow: 0rem 0.03rem 0.19rem 0rem
+    rgba(0, 210, 255, 0.8);
+    margin-bottom: 1rem;
+}

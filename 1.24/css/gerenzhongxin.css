@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1030787 */
+    src: url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.eot');
+    src: url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030787_wul4cyg3d4c.svg#iconfont') format('svg');
+}
+.beijing{
+    width: 100%;
+    height: 6.5rem;
+    background-image:linear-gradient(to right,rgb(0,210,255) 0,rgb(120,250,0) 100%) ;
+    text-align: center;
+    position: relative;
+    border: 0.01rem solid rgba(255,255,255,0.1);
+}
+.beijing img{
+    width: 6.26rem;
+    height: 6.26rem;
+}
+.beijing img:nth-child(2){
+    width: 1.56rem;
+    height: 1.56rem;
+    position: absolute;
+    top: 1.26rem;
+    left: calc(50% - 0.78rem);
+}
+.beijing p{
+    font-size: 0.34rem;
+    font-weight: bold;
+    color:rgba(255,255,255,0.9);
+    position: absolute;
+    top: 3.23rem;
+    left:3.3rem ;
+}
+.touxiang{
+    width: 1.46rem;
+    height: 1.46rem;
+    border-radius:50%;
+    background-color: yellow;
+    margin-top: 1.45rem;
+    margin-left: 3rem;
+    border: 0.1rem solid white;
+    box-sizing: content-box;
+}
+.touxiang img{
+    width: 1.46rem;
+    height: 1.46rem;
+    border-radius:0.73rem ;
+}
+#shu1{
+    font-size: 0.18rem;
+    color:rgba(255,255,255,0.9);
+    position: absolute;
+    top: 3.85rem;
+    left: 1.8rem;
+    font-weight: normal;
+}
+#shu2{
+    font-size: 0.18rem;
+    color:rgba(255,255,255,0.9);
+    position: absolute;
+    top: 4.2rem;
+    left: 1.2rem;
+    font-weight: normal;
+}
+.beijing p+img{
+    width: 1.74rem;
+    height: 0.31rem;
+    position: absolute;
+    top: 4.6rem;
+    left: calc(50% - 0.78rem);
+}
+.beijing img:nth-last-child(2){
+    width: 0.63rem;
+    height: 0.63rem;
+    position: absolute;
+    top: 5.22rem;
+    right: calc(50% - 0.98rem);
+}
+.beijing img:nth-last-child(3){
+    width: 0.63rem;
+    height: 0.63rem;
+    position: absolute;
+    top: 5.22rem;
+    left: calc(50% - 0.78rem);
+}
+.wodeziliao{
+    width: 3.02rem;
+    height: 0.87rem;
+    background: white;
+    box-shadow: 0rem 0.03rem 0.18rem 0rem
+    rgba(236, 61, 21, 0.34);
+    border-radius: 0.38rem;
+    margin: 0 auto;
+    margin-top: 2.9rem;
+    margin-left:calc(50% - 1.38rem);
+    position: relative;
+}
+.wodeziliao .yuan{
+    width: 0.1rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #9da2ff;
+}
+.wodeziliao .yuan:nth-of-type(1){
+    position: absolute;
+    top: 0.4rem;
+    left: 0.1rem;
+}
+.wodeziliao .yuan:nth-of-type(2){
+    position: absolute;
+    top: 0.4rem;
+    left:2.8rem ;
+}
+.wodeziliao span{
+    display: block;
+    font-size: 0.4rem;
+    color: #9da2ff;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.8rem;
+    letter-spacing: 0.014rem;
+}
+.wodeziliao .yuan:nth-child(1)+span{
+    font-size: 0.2rem;
+    color: black;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.25rem;
+}
+.xiangmu{
+    width: 7.02rem;
+    height: 5.26rem;
+    background-color: rgba(0,0,0,0.1) ;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.xiangmu .xiangmu1{
+    width: 7.02rem;
+    height: 1.01rem;
+    background: white;
+    box-shadow: 0rem 0.03rem 0.18rem 0rem
+    rgba(10, 1, 21, 0.34);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.xiangmu1 span{
+    font-size: 0.3rem;
+    letter-spacing: 0.012rem;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.28rem;
+}
+.xiangmu1 img{
+    width: 0.55rem;
+    height: 0.55rem;
+    margin-left: 0.25rem;
+}
+.xiangmu2{
+    width: 0.7rem;
+    height: 0.4rem;
+    background-image:linear-gradient(to bottom,rgb(0,210,255) 0,rgb(120,250,0) 100%) ;
+    border-radius: 0.2rem;
+    font-size: 0.3rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-left: 3.6rem;
+}
+.xiangmu1:nth-child(2) .juxingkuai{
+    background-image:linear-gradient(to bottom,rgb(0,210,255) 0,rgb(120,250,0) 100%) ;
+}
+.xiangmu1:nth-child(3) .juxingkuai{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:#9da2ff;
+}
+.smallcircle{
+    width: 0.32rem;
+    height: 0.32rem;
+    background: white;
+    border-radius: 50%;
+    margin-left: 0.06rem;
+    margin-top: 0.04rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.smallcircle .littlecircle{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    margin-left: 0.12rem;
+}
+.qiandao:nth-child(4) .circlebit{
+    width: 0.09rem;
+    height: 0.08rem;
+    background: #9d9d9d;
+    border-radius: 50%;
+    margin-right: 0.1rem;
+}
+.qiandao:nth-child(4) #circlegroup{
+    width: 1rem;
+    height: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3.05rem;
+}
+.thirdpart{
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto;
+    /*background: #66afe9;*/
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 0.2rem 0.1rem #cccccc;
+}
+.thirdpart .shou,.discover,.order,.my{
+    width: 1rem;
+    height: 1rem;
+    /*background: red;*/
+    margin-top:-0.5rem;
+    margin-left: 0.4rem;
+}
+.zhuangtailan{
+    width: 7.5rem;
+    height: 0.97rem;
+        background: white;
+    margin-top: 0.54rem;
+    box-shadow: 0 0 0.04rem 0.04rem rgba(0,0,0,0.2);
+    font-family: iconfont;
+    position: fixed;
+    bottom: 0rem;
+}
+div.tubiao1 {
+    width: 0.55rem;
+    height: 0.97rem;
+    /*    background: blue;*/
+    margin-left: 1.31rem;
+    float: left;
+}
+.tubiao2{
+    width: 0.55rem;
+    height: 0.5rem;
+    /*    background: green;*/
+    line-height: 0.0rem;
+    text-align: center;
+    font-family: iconfont;
+}
+.tubiao1 span{
+    font-size: 0.32rem;
+}
+.zi5{
+    height: 0.33rem;
+    font-size: 0.16rem;
+    text-align: center;
+    margin-top: 0rem;
+    /*    background: red;*/
+}
